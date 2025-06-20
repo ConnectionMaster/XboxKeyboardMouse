@@ -88,14 +88,23 @@ namespace XboxKeyboardMouse
                     Thread.Sleep(500);
 
                     IntPtr handle = GetForegroundWindow();
-                    if (GetWindowText(handle, text, count) > 0)
-                    {
-                        if (!defaultAppNames.Contains(text.ToString()))
-                        {
-                            ShowAndFreeCursor();
-                            started = false;
-                            Program.MainForm.StatusWaiting();
-                        }
+                     if (GetWindowText(handle, text, count) > 0)
+					 {
+						 string currentTitle = text.ToString();
+
+						 bool isExactMatch = defaultAppNames.Contains(currentTitle);
+						 // Xbox.com currently names the window
+						 // Users XBOX | Xbox Remote Play on Xbox.com - Google Chrome
+						 bool isXboxAndChrome =
+							 currentTitle.IndexOf("Xbox", StringComparison.OrdinalIgnoreCase) >= 0 &&
+							 currentTitle.IndexOf("Chrome", StringComparison.OrdinalIgnoreCase) >= 0;
+
+						 if (!isExactMatch && !isXboxAndChrome)
+						 {
+							 ShowAndFreeCursor();
+							 started = false;
+							 Program.MainForm.StatusWaiting();
+						 }
                         else if (!started)
                         {
                             LockAndHideCursor();

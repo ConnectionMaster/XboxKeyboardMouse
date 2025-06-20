@@ -1,18 +1,27 @@
 **Help support this project by ⭐️'ing it! 😍**
 
 # XboxKeyboardMouse
-Keyboard and mouse for Xbox One streaming to Windows 10.
+Use your Keyboard and Mouse as a controller when streaming your Xbox on Windows.
 
 XboxKeyboardMouse sends keyboard and mouse inputs to the Xbox streaming app via magic (and some math).
 
-Note: This app only starts when the Xbox streaming app is in the foreground.
+Note: This app only starts when the Xbox App is in the foreground.
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/6545688/23099037/50091be8-f655-11e6-838c-b94d7a62572b.PNG "Image of the GUI as of 11/12/16")
 
+This was originally made for Xbox One game streaming using the Xbox Console Companion App (Deprecated 08/23/2023). 
+
+Recent changes should enable you to use this with Xbox Series consoles through xbox.com/remoteplay in Google Chrome.
+
 # Prerequisites
+
+https://github.com/fqlx/XboxKeyboardMouse/pull/204 - Looks like SlimDX may no longer be needed.
+
 1. [You need SlimDX Runtime installed (x86)](/SlimDX%20Runtime%20.NET%204.0%20x86%20(January%202012).msi?raw=true). (direct download link)
 
 [Original SlimDX website](https://slimdx.org/download.php) (currently down)
+
+[SlimDX Google Code Archive](https://code.google.com/archive/p/slimdx/downloads)
 
 # Installation
 Simply run the installer: https://github.com/fqlx/XboxKeyboardMouse/raw/master/Installer/setup.exe
