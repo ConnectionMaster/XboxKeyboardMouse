@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="591872">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="586240">
       <assemblyIdentity name="MaterialSkin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YopNhtmtZB8T2TU3QWdsKUE+3Z6gnkuk831+IcoxKVE=</dsig:DigestValue>
+        <dsig:DigestValue>DbyMJh1svp0lUB6ismBcLxQVEjPD2qWnb5L0hIi68gk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XboxKeyboardMouse.exe" size="2164736">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XboxKeyboardMouse.exe" size="2057728">
       <assemblyIdentity name="XboxKeyboardMouse" version="1.0.3.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qwQiKXwcvXa9O+lb6h2n0TTN2EkGYUdnw+T6v1Ef45A=</dsig:DigestValue>
+        <dsig:DigestValue>oYaLYi1YTNAhmokS40KbN5L1B6IcqW6eO+IJ7kDCQf4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
