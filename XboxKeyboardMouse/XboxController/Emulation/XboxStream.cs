@@ -98,8 +98,11 @@ namespace XboxKeyboardMouse
 						 bool isXboxAndChrome =
 							 currentTitle.IndexOf("Xbox", StringComparison.OrdinalIgnoreCase) >= 0 &&
 							 currentTitle.IndexOf("Chrome", StringComparison.OrdinalIgnoreCase) >= 0;
+                         
+                         bool isGreenLight =
+                             currentTitle.IndexOf("Greenlight", StringComparison.OrdinalIgnoreCase) >= 0;
 
-						 if (!isExactMatch && !isXboxAndChrome)
+						 if (!isExactMatch && !isXboxAndChrome && !isGreenLight)
 						 {
 							 ShowAndFreeCursor();
 							 started = false;
